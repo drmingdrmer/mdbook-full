@@ -12,6 +12,9 @@ Backends:
 - [mdbook-linkcheck](https://github.com/drmingdrmer/mdbook-linkcheck): A backend for `mdbook` which will check your links for you.
 
 
+**This action only runs on `ubuntu-latest`**.
+
+
 # Usage
 
 ```yaml

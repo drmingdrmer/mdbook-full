@@ -7,7 +7,7 @@ branding:
   icon: upload-cloud
   color: green
 
-inputs:
+# inputs:
   # pattern:
   #   description: 'file pattern to convert'
   #   required: true
