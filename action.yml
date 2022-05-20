@@ -1,4 +1,4 @@
-name: 'mdbook-full'
+name: "mdbook-full"
 description: >
   Install mdbook with plugins
   svgbob, katex, linkcheck
@@ -8,10 +8,10 @@ branding:
   color: green
 
 # inputs:
-  # pattern:
-  #   description: 'file pattern to convert'
-  #   required: true
-  #   default: '**/*.md'
+# pattern:
+#   description: 'file pattern to convert'
+#   required: true
+#   default: '**/*.md'
 
 runs:
   using: "composite"
@@ -32,7 +32,7 @@ runs:
         chmod +x mdbook-linkcheck/mdbook-linkcheck
         echo "$PWD/mdbook-linkcheck" >> $GITHUB_PATH
 
-        curl -LsSf https://github.com/rust-lang/mdBook/releases/download/v0.4.15/mdbook-v0.4.15-x86_64-unknown-linux-gnu.tar.gz -o mdbook.tar.gz
+        curl -LsSf https://github.com/rust-lang/mdBook/releases/download/v0.4.18/mdbook-v0.4.18-x86_64-unknown-linux-gnu.tar.gz -o mdbook.tar.gz
         mkdir mdbook
         tar xz  -f mdbook.tar.gz -C mdbook
         echo "$PWD/mdbook" >> $GITHUB_PATH
