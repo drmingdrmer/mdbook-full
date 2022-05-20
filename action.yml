@@ -1,4 +1,4 @@
-name: 'mdbook-full'
+name: "mdbook-full"
 description: >
   Install mdbook with plugins
   svgbob, katex, linkcheck
@@ -8,10 +8,10 @@ branding:
   color: green
 
 # inputs:
-  # pattern:
-  #   description: 'file pattern to convert'
-  #   required: true
-  #   default: '**/*.md'
+# pattern:
+#   description: 'file pattern to convert'
+#   required: true
+#   default: '**/*.md'
 
 runs:
   using: "composite"
